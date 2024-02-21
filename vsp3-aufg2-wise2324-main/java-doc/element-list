@@ -1,0 +1,10 @@
+org.vsp.chef
+org.vsp.chef.logger
+org.vsp.chef.measure
+org.vsp.chef.schema
+org.vsp.mechatroniker
+org.vsp.mechatroniker.dockerfiletesting
+org.vsp.mechatroniker.floodmax
+org.vsp.mechatroniker.server
+org.vsp.proto
+org.vsp.service

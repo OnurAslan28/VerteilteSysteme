@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "org.vsp.proto";
+
+service MechatronikerService {
+  rpc initContainers (InitContainersRequest) returns (InitContainersResponse);
+  rpc start (StartRequest) returns (StartResponse);
+}
+
+message Task {
+  string taskName = 1;
+  int32 priority = 2;
+  string time = 3;
+}
+
+message InitContainersRequest {
+  int32 amountOfContainers = 1;
+  repeated Task taskList = 2;
+}
+
+message InitContainersResponse {
+  bool success = 1;
+}
+
+message StartRequest {
+}
+
+message StartResponse {
+  bool success = 1;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "org.vsp.proto";
+
+service ChefService {
+  rpc addLog (LoggerRequest) returns (LoggerResponse);
+  rpc finished (FinishedRequest) returns (FinishedResponse);
+}
+
+message LoggerRequest {
+  string log = 1;
+}
+
+message LoggerResponse {
+}
+
+message FinishedRequest {
+  bool done = 1;
+}
+
+message FinishedResponse {
+}

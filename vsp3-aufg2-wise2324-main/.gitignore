@@ -1,0 +1,54 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+FloodMax/.idea/*
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+FloodMax/.idea/sonarlint/**
+.idea/*
+*.pb
+misc/*
+
+
+FloodMax/src/main/java/org/vsp/deprecated/*
+FloodMax/src/main/resources/Dockerfile_*
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_*
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_Mechatroniker-1
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_Mechatroniker-2
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_Mechatroniker-3
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_Mechatroniker-4
+FloodMax/src/main/java/org/vsp/mechatroniker/dockerfiletesting/Dockerfile_Mechatroniker-5
+FloodMax/src/main/resources/logs.txt
+FloodMax/src/main/resources/logs.*
